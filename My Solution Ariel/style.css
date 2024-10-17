@@ -1,0 +1,60 @@
+/* Importation de la police Outfit */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%); 
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 320px;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.big-text {
+    font-size: 20px;
+    font-weight: 700; 
+    color: hsl(218, 44%, 22%); 
+    margin-bottom: 10px;
+}
+
+.small-text {
+    font-size: 15px; 
+    font-weight: 400; 
+    color: hsl(216, 15%, 48%); 
+}
+
+@media (max-width: 375px) {
+    .container {
+        padding: 15px;
+        max-width: 100%;
+    }
+
+    .big-text {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .container {
+        max-width: 400px; 
+    }
+
+    .big-text {
+        font-size: 24px; 
+    }
+}
